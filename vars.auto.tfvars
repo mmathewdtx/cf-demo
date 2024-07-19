@@ -1,0 +1,7 @@
+aws_region     = "us-east-1"
+vpc_cidr       = "10.1.0.0/16"
+ec2_name       = "RHEL_Sub2"
+ssh_ingress_ip = "172.16.0.0/24"
+ec2_key_pair   = "ec2_key_pair"
+alb_name       = "asg-alb"
+asg_name       = "web-asg"
